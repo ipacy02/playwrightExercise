@@ -12,6 +12,6 @@ public class BasePage {
 
     public void navigateToHome() {
 
-        page.navigate(baseUrl);
+        page.navigate(baseUrl); //this is the url base
     }
 }
