@@ -22,8 +22,6 @@ public class CheckoutTests extends BaseTest {
         checkoutPage.submitDetails("Jane", "Smith", "90210");
         checkoutPage.finish();
 
-
-// Step 3: Now on "Complete" (Image 3)
         String message = checkoutPage.getConfirmationMessage();
         Assert.assertEquals(message, "Thank you for your order!");
     }
